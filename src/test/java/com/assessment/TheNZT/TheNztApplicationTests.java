@@ -39,6 +39,9 @@ public class TheNztApplicationTests {
                         .withHeader("Content-Type", "application/json")
                         .withBody("\"testing-library\": \"WireMock\"")));
 
+
+        //verify(getRequestedFor(urlEqualTo("https://api.stripe.com/v1/charges -u sk_test_4eC39HqLyjWDarjtT1zdp7dc: -d amount=2000 -d currency=usd  -d source=tok_amex -d description=Charge for jenny.rosen@example.com")));
+
     }
 
 }
